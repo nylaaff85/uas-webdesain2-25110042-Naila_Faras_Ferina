@@ -89,8 +89,7 @@
     <!-- Home -->
     <!-- ========================= -->
 
-    <section id="home" class="hero slide-section">
-
+    <section id="home" class="hero hero-page-section">
         <div class="container">
 
             <div class="row align-items-center min-vh-100">
@@ -116,22 +115,6 @@
 
                     </p>
 
-                    <div class="mt-4">
-
-                        <a href="#produk" class="btn btn-warning btn-lg me-3">
-
-                            Lihat Menu
-
-                        </a>
-
-                        <a href="#about" class="btn btn-outline-light btn-lg">
-
-                            Tentang Kami
-
-                        </a>
-
-                    </div>
-
                 </div>
 
                 <!-- Gambar Hero -->
@@ -153,11 +136,10 @@
     <!-- Carousel Menu Favorit -->
     <!-- ========================= -->
 
-    <section class="carousel-section slide-section">
-
+    <section id="menu-favorit" class="py-5" style="background: linear-gradient(145deg, #fffaf0, #f7e7b6, #edd39b);">
         <div class="container">
 
-            <div class="text-center mb-4">
+            <div class="text-center mb-5">
 
                 <h2 class="fw-bold">
                     Menu Favorit Kami
@@ -292,7 +274,7 @@
     <!-- About -->
     <!-- ========================= -->
 
-    <section id="about" class="slide-section">
+    <section id="about" class="py-5 page-section">
 
         <div class="container">
 
@@ -375,7 +357,6 @@
                                     </h4>
 
                                     <p>
-
                                         Menyajikan makanan yang lezat,
                                         higienis, berkualitas, serta
                                         memberikan pelayanan yang ramah
@@ -399,203 +380,399 @@
 
     </section>
 
-    <!-- ========================= -->
-    <!-- Produk -->
-    <!-- ========================= -->
+<!-- ========================= -->
+<!-- Produk -->
+<!-- ========================= -->
 
-    <section id="produk" class="slide-section">
+<section id="produk" class="py-5 page-section">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="text-center mb-4">
+        <div class="text-center mb-5">
 
-                <h2 class="fw-bold">
-                    Menu Makanan
-                </h2>
+            <h2 class="fw-bold">
+                Menu Kami
+            </h2>
 
-                <p class="text-muted">
-                    Pilihan menu favorit dengan cita rasa khas Nusantara.
-                </p>
+            <p class="text-muted">
+                Pilihan menu favorit dengan cita rasa khas Nusantara.
+            </p>
+
+        </div>
+
+        <!-- Menu Makanan -->
+        <h4 class="fw-bold text-center mb-4" style="color: #7f1d1d;">
+            <i class="bi bi-egg-fried"></i> Menu Makanan
+        </h4>
+
+        <h4 class="fw-bold text-center mt-5 mb-4" style="color: #7f1d1d;"></h4>
+
+        <div class="row">
+
+            <!-- Produk 1 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/nasi goreng spesial.jpeg" class="card-img-top" alt="Nasi Goreng Spesial">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">
+                            Nasi Goreng
+                        </h5>
+
+                        <p class="card-text flex-grow-1">
+                            Nasi gurih dengan bumbu khas yang harum dan menggugah selera.
+                        </p>
+
+                        <h6 class="text-danger fw-bold">Rp 13.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Nasi Goreng Spesial" 
+                                data-harga="25000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="row">
+            <!-- Produk 2 -->
+            <div class="col-md-4 mb-4">
 
-                <!-- Produk 1 -->
-                <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow border-0">
 
-                    <div class="card h-100 shadow border-0">
+                    <img src="img/nasi goreng petai.jpeg" class="card-img-top" alt="Nasi Goreng Petai">
 
-                        <img src="img/nasi goreng spesial.jpeg" class="card-img-top" alt="Nasi Goreng Spesial">
+                    <div class="card-body d-flex flex-column">
 
-                        <div class="card-body">
+                        <h5 class="card-title">
+                            Nasi Goreng Petai
+                        </h5>
 
-                            <h5 class="card-title">
-                                Nasi Goreng Spesial
-                            </h5>
+                        <p class="card-text flex-grow-1">
+                            Perpaduan nasi goreng berbumbu dengan aroma khas petai yang nikmat
 
-                            <p class="card-text">
-                                Nasi goreng dengan telur, ayam, bakso, sosis, dan kerupuk.
-                            </p>
+                        <h6 class="text-danger fw-bold">Rp 16.000</h6>
 
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Nasi Goreng Spesial', 25000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 25.000</span>
-                            </div>
-
-                        </div>
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Nasi Goreng Petai" 
+                                data-harga="22000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
 
                     </div>
 
                 </div>
 
-                <!-- Produk 2 -->
-                <div class="col-md-4 mb-4">
+            </div>
 
-                    <div class="card h-100 shadow border-0">
+            <!-- Produk 3 -->
+            <div class="col-md-4 mb-4">
 
-                        <img src="img/nasi goreng petai.jpeg" class="card-img-top" alt="Nasi Goreng Petai">
+                <div class="card h-100 shadow border-0">
 
-                        <div class="card-body">
+                    <img src="img/nasi goreng seefood.jpeg" class="card-img-top" alt="Nasi Goreng Seafood">
 
-                            <h5 class="card-title">
-                                Nasi Goreng Petai
-                            </h5>
+                    <div class="card-body d-flex flex-column">
 
-                            <p class="card-text">
-                                Nasi goreng pedas dengan petai pilihan yang gurih.
-                            </p>
+                        <h5 class="card-title">
+                            Nasi Goreng Seafood
+                        </h5>
 
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Nasi Goreng Petai', 27000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 27.000</span>
-                            </div>
+                        <p class="card-text flex-grow-1">
+                            Nasi goreng lezat dengan cita rasa seafood yang gurih dan menggoda
+                        </p>
 
-                        </div>
+                        <h6 class="text-danger fw-bold">Rp .23.000</h6>
 
-                    </div>
-
-                </div>
-
-                <!-- Produk 3 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/nasi goreng seefood.jpeg" class="card-img-top" alt="Nasi Goreng Seafood">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">
-                                Nasi Goreng Seafood
-                            </h5>
-
-                            <p class="card-text">
-                                Perpaduan udang, cumi, dan bumbu spesial.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Nasi Goreng Seafood', 30000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 30.000</span>
-                            </div>
-
-                        </div>
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Nasi Goreng Seafood" 
+                                data-harga="28000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
 
                     </div>
 
                 </div>
 
-                <!-- Produk 4 -->
-                <div class="col-md-4 mb-4">
+            </div>
 
-                    <div class="card h-100 shadow border-0">
+            <!-- Produk 4 -->
+            <div class="col-md-4 mb-4">
 
-                        <img src="img/mie goreng.jpeg" class="card-img-top" alt="Mie Goreng">
+                <div class="card h-100 shadow border-0">
 
-                        <div class="card-body">
+                    <img src="img/mie goreng.jpeg" class="card-img-top" alt="Mie Goreng">
 
-                            <h5 class="card-title">
-                                Mie Goreng
-                            </h5>
+                    <div class="card-body d-flex flex-column">
 
-                            <p class="card-text">
-                                Mie goreng dengan sayuran segar dan telur.
-                            </p>
+                        <h5 class="card-title">
+                            Mie Goreng
+                        </h5>
 
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Mie Goreng', 22000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 22.000</span>
-                            </div>
+                        <p class="card-text flex-grow-1">
+                           Mie kenyal berbumbu gurih yang cocok dinikmati kapan saja.
+                        </p>
 
-                        </div>
+                        <h6 class="text-danger fw-bold">Rp 13.000</h6>
 
-                    </div>
-
-                </div>
-
-                <!-- Produk 5 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/bihun.jpeg" class="card-img-top" alt="Bihun Goreng">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">
-                                Bihun Goreng
-                            </h5>
-
-                            <p class="card-text">
-                                Bihun goreng dengan bumbu tradisional yang nikmat.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Bihun Goreng', 22000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 22.000</span>
-                            </div>
-
-                        </div>
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Mie Goreng" 
+                                data-harga="20000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
 
                     </div>
 
                 </div>
 
-                <!-- Produk 6 -->
-                <div class="col-md-4 mb-4">
+            </div>
 
-                    <div class="card h-100 shadow border-0">
+            <!-- Produk 5 -->
+            <div class="col-md-4 mb-4">
 
-                        <img src="img/mie gomak.jpeg" class="card-img-top" alt="Mie Gomak">
+                <div class="card h-100 shadow border-0">
 
-                        <div class="card-body">
+                    <img src="img/bihun.jpeg" class="card-img-top" alt="Bihun Goreng">
 
-                            <h5 class="card-title">
-                                Mie Gomak
-                            </h5>
+                    <div class="card-body d-flex flex-column">
 
-                            <p class="card-text">
-                                Mie gomak khas dengan kuah dan bumbu rempah pilihan.
-                            </p>
+                        <h5 class="card-title">
+                            Bihun Goreng
+                        </h5>
 
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Mie Gomak', 25000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 25.000</span>
-                            </div>
+                        <p class="card-text flex-grow-1">
+                           Bihun lembut dengan bumbu meresap dan rasa yang nikmat.
+                        </p>
 
-                        </div>
+                        <h6 class="text-danger fw-bold">Rp 13.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Bihun Goreng" 
+                                data-harga="18000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Produk 6 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/mie gomak.jpeg" class="card-img-top" alt="Mie Gomak">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">
+                            Mie Gomak
+                        </h5>
+
+                        <p class="card-text flex-grow-1">
+                            Mie khas dengan rempah pilihan dan cita rasa yang kaya.
+                        </p>
+
+                        <h6 class="text-danger fw-bold">Rp 18.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Mie Gomak" 
+                                data-harga="23000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    
+    <br>
+    <h4 class="fw-bold text-center mb-4" style="color: #7f1d1d;">
+            <i class="bi bi-egg-fried"></i> Menu Minuman
+    </h4>    
+        <!-- Menu Minuman -->
+    <div class="menu-minuman">
+
+    <h4 class="fw-bold text-center mt-5 mb-4" style="color: #7f1d1d;"></h4>
+
+        <div class="row">
+
+            <!-- Minuman 1 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/teh es manis.jpeg" class="card-img-top" alt="Es Teh Manis">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">Es Teh Manis</h5>
+
+                        <p class="card-text flex-grow-1">
+                            Minuman manis dan dingin yang menyegarkan dahaga.
+
+                        <h6 class="text-danger fw-bold">Rp 5.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Es Teh Manis" 
+                                data-harga="5000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Minuman 2 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/jus jeruk.jpeg" class="card-img-top" alt="Es Jeruk">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">Es Jeruk</h5>
+
+                        <p class="card-text flex-grow-1">
+                            Kesegaran jeruk dengan perpaduan rasa manis dan sedikit asam.
+                        </p>
+
+                        <h6 class="text-danger fw-bold">Rp 8.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Es Jeruk" 
+                                data-harga="8000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Minuman 3 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/lemon tea.jpeg" class="card-img-top" alt="Lemon Tea">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">Lemon Tea</h5>
+
+                        <p class="card-text flex-grow-1">
+                            Teh segar dengan sentuhan lemon yang nikmat dan menyegarkan.
+                        </p>
+
+                        <h6 class="text-danger fw-bold">Rp 7.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Lemon Tea" 
+                                data-harga="7000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Minuman 4 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/milo.jpeg" class="card-img-top" alt="Milo Dingin">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">Milo Dingin</h5>
+
+                        <p class="card-text flex-grow-1">
+                            Minuman cokelat manis dengan sensasi dingin yang menyegarkan.
+                        </p>
+
+                        <h6 class="text-danger fw-bold">Rp 10.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Milo Dingin" 
+                                data-harga="10000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Minuman 5 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/teh telur.jpeg" class="card-img-top" alt="Teh Telur">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">Teh Telur</h5>
+
+                        <p class="card-text flex-grow-1">
+                            Minuman khas dengan perpaduan teh dan rasa gurih yang unik.
+                        </p>
+
+                        <h6 class="text-danger fw-bold">Rp 12.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Teh Telur" 
+                                data-harga="12000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Minuman 6 -->
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow border-0">
+
+                    <img src="img/kopi hitam.jpeg" class="card-img-top" alt="Kopi Hitam">
+
+                    <div class="card-body d-flex flex-column">
+
+                        <h5 class="card-title">Kopi Hitam</h5>
+
+                        <p class="card-text flex-grow-1">
+                           Kopi beraroma khas dengan cita rasa kuat dan autentik.
+                        </p>
+
+                        <h6 class="text-danger fw-bold">Rp 6.000</h6>
+
+                        <button class="btn btn-danger w-100 mt-2 btn-pesan" 
+                                data-nama="Kopi Hitam" 
+                                data-harga="6000">
+                            <i class="bi bi-cart-plus"></i> Pesan
+                        </button>
 
                     </div>
 
@@ -605,213 +782,65 @@
 
         </div>
 
-    </section>
+    </div>
 
-    <!-- ========================= -->
-    <!-- Menu Minuman -->
-    <!-- ========================= -->
+</section>
 
-    <section class="menu-minuman slide-section">
+<!-- ========================= -->
+<!-- Modal Keranjang -->
+<!-- ========================= -->
 
-        <div class="container">
-
-            <div class="text-center mb-4">
-
-                <h2 class="fw-bold">
-                    Menu Minuman
-                </h2>
-
-                <p class="text-muted">
-                    Minuman segar yang cocok menemani hidangan favorit Anda.
-                </p>
-
+<div class="modal fade" id="keranjangModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title fw-bold text-white">
+                    <i class="bi bi-cart"></i> Keranjang Pesanan
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
             </div>
-
-            <div class="row">
-
-                <!-- Minuman 1 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/teh es manis.jpeg" class="card-img-top" alt="Es Teh Manis">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">Es Teh Manis</h5>
-
-                            <p class="card-text">
-                                Teh manis segar yang cocok dinikmati kapan saja.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Es Teh Manis', 8000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 8.000</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
+            <div class="modal-body">
+                <div id="keranjangList">
+                    <p class="text-muted text-center">Belum ada pesanan</p>
                 </div>
-
-                <!-- Minuman 2 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/jus jeruk.jpeg" class="card-img-top" alt="Es Jeruk">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">Es Jeruk</h5>
-
-                            <p class="card-text">
-                                Perasan jeruk segar dengan rasa manis dan menyegarkan.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Es Jeruk', 10000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 10.000</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
+                <hr>
+                <div class="d-flex justify-content-between fw-bold fs-5">
+                    <span>Total Harga:</span>
+                    <span id="totalHarga" class="text-danger">Rp 0</span>
                 </div>
-
-                <!-- Minuman 3 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/lemon tea.jpeg" class="card-img-top" alt="Lemon Tea">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">Lemon Tea</h5>
-
-                            <p class="card-text">
-                                Perpaduan teh dan lemon dengan rasa yang menyegarkan.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Lemon Tea', 12000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 12.000</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Minuman 4 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/milo.jpeg" class="card-img-top" alt="Milo Dingin">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">Milo Dingin</h5>
-
-                            <p class="card-text">
-                                Minuman cokelat favorit yang nikmat dan menyegarkan.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Milo Dingin', 12000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 12.000</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Minuman 5 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/teh telur.jpeg" class="card-img-top" alt="Teh Telur">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">Teh Telur</h5>
-
-                            <p class="card-text">
-                                Teh Telur minuman khas dengan rasa lembut dan kaya energi.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Teh Telur', 15000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 15.000</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Minuman 6 -->
-                <div class="col-md-4 mb-4">
-
-                    <div class="card h-100 shadow border-0">
-
-                        <img src="img/kopi hitam.jpeg" class="card-img-top" alt="Kopi Hitam">
-
-                        <div class="card-body">
-
-                            <h5 class="card-title">Kopi Hitam</h5>
-
-                            <p class="card-text">
-                                Kopi hitam hangat dengan aroma yang khas.
-                            </p>
-
-                            <div class="product-actions">
-                                <button class="btn-order" onclick="addToCart('Kopi Hitam', 10000)">
-                                    <i class="bi bi-cart-plus"></i> Pesan
-                                </button>
-                                <span class="btn-price">Rp 10.000</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
             </div>
-
+            <div class="modal-footer">
+                <button class="btn btn-outline-danger" onclick="kosongkanKeranjang()">
+                    <i class="bi bi-trash"></i> Kosongkan
+                </button>
+                <button class="btn btn-danger" onclick="checkout()">
+                    <i class="bi bi-check-circle"></i> Checkout
+                </button>
+            </div>
         </div>
+    </div>
+</div>
 
-    </section>
+<!-- Tombol Keranjang -->
+<button class="btn btn-danger position-fixed bottom-0 end-0 m-4 rounded-circle shadow-lg" 
+        style="width: 60px; height: 60px; z-index: 999;" 
+        data-bs-toggle="modal" 
+        data-bs-target="#keranjangModal">
+    <i class="bi bi-cart fs-3 text-white"></i>
+    <span id="keranjangCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        0
+    </span>
+</button>
 
     <!-- ========================= -->
     <!-- Kontak -->
     <!-- ========================= -->
 
-    <section id="kontak" class="slide-section">
+    <section id="kontak" class="py-5 page-section">
 
         <div class="container">
 
-            <div class="text-center mb-4">
+            <div class="text-center mb-5">
 
                 <h2 class="fw-bold">
                     Hubungi Kami
@@ -835,7 +864,6 @@
                     <p>
                         <i class="bi bi-geo-alt-fill text-danger"></i>
                         JL.Gauda Sakti No.Km 3,Kelurahan Air Putih,Kec Tampan,Kota Pekanbaru,Riau 28291
-                    </p>
 
                     <p>
                         <i class="bi bi-telephone-fill text-success"></i>
@@ -856,7 +884,7 @@
 
                 </div>
 
-                <!-- Google Maps -->
+                <!--Goggle Maps -->
                 <div class="col-lg-7">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6734123991946!2d101.35360667403705!3d0.48832446374115335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a9c567c64db3%3A0xd7b8f74068d22fb2!2sNasi%20Goreng%20Petai%20Simpang%20Uka!5e0!3m2!1sid!2sid!4v1783681316626!5m2!1sid!2sid" 
                     width="100%" 
@@ -866,7 +894,7 @@
                     loading="lazy" 
                     referrerpolicy="strict-origin-when-cross-origin">
                     </iframe>
-                </div>
+                </div> 
 
             </div>
 
@@ -888,67 +916,13 @@
                 © 2026 Kedai Nasi Goreng Petai
 
             </p>
-
-            <div>
-
-                <a href="#" class="me-3">
-                    <i class="bi bi-facebook fs-4"></i>
-                </a>
-
-                <a href="#" class="me-3">
-                    <i class="bi bi-instagram fs-4"></i>
-                </a>
-
-                <a href="#">
-                    <i class="bi bi-whatsapp fs-4"></i>
-                </a>
-
-            </div>
-
         </div>
-
     </footer>
     </main>
 
-    <!-- ========================= -->
-    <!-- KERANJANG PESANAN -->
-    <!-- ========================= -->
-
-    <div id="cartSidebar" class="cart-sidebar">
-        <div class="cart-header">
-            <h5 class="mb-0">
-                <i class="bi bi-cart-fill"></i> Keranjang Pesanan
-            </h5>
-            <button class="btn-close-cart" onclick="toggleCart()">✕</button>
-        </div>
-        <div class="cart-body" id="cartBody">
-            <div id="cartItems">
-                <p class="text-center text-muted">Keranjang kosong</p>
-            </div>
-            <div id="cartTotal" class="cart-total">
-                <span>Total:</span>
-                <span id="totalPrice">Rp 0</span>
-            </div>
-        </div>
-        <div class="cart-footer">
-            <button class="btn btn-warning w-100" onclick="checkout()">
-                <i class="bi bi-whatsapp"></i> Pesan via WhatsApp
-            </button>
-            <button class="btn btn-danger w-100 mt-2" onclick="clearCart()">
-                <i class="bi bi-trash"></i> Kosongkan Keranjang
-            </button>
-        </div>
-    </div>
-
-    <!-- Tombol Buka Keranjang -->
-    <button id="cartToggle" class="cart-toggle" onclick="toggleCart()">
-        <i class="bi bi-cart-fill"></i>
-        <span id="cartCount" class="cart-badge">0</span>
-    </button>
-
     <!-- Bootstrap JS -->
 
-    <!-- Tombol Back to Top -->
+    <!--Tombol Back to Top -->
     <button id="backToTop" class="back-to-top">
         ↑
     </button>
