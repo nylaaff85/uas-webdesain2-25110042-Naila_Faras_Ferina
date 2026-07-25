@@ -938,3 +938,14 @@ footer p {
 #menuMinuman{
     display:none;
 }
+.rating {
+    color: #ffc107;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.rating small {
+    color: #6c757d;
+    margin-left: 5px;
+    font-weight: 600;
+}
