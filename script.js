@@ -257,3 +257,35 @@ document.querySelectorAll('.btn-pesan').forEach(button => {
 
 // Inisialisasi keranjang
 updateKeranjang();
+
+// =========================
+// FILTER MENU MAKANAN & MINUMAN
+// =========================
+
+const btnMakanan = document.getElementById("btnMakanan");
+const btnMinuman = document.getElementById("btnMinuman");
+
+const menuMakanan = document.getElementById("menuMakanan");
+const menuMinuman = document.getElementById("menuMinuman");
+
+btnMakanan.addEventListener("click", function () {
+    menuMakanan.style.display = "block";
+    menuMinuman.style.display = "none";
+
+    btnMakanan.classList.remove("btn-outline-danger");
+    btnMakanan.classList.add("btn-danger");
+
+    btnMinuman.classList.remove("btn-danger");
+    btnMinuman.classList.add("btn-outline-danger");
+});
+
+btnMinuman.addEventListener("click", function () {
+    menuMakanan.style.display = "none";
+    menuMinuman.style.display = "block";
+
+    btnMinuman.classList.remove("btn-outline-danger");
+    btnMinuman.classList.add("btn-danger");
+
+    btnMakanan.classList.remove("btn-danger");
+    btnMakanan.classList.add("btn-outline-danger");
+});
