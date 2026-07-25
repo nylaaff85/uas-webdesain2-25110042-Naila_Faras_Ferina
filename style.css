@@ -310,6 +310,7 @@ section .text-muted {
 }
 
 #produk .card {
+    position: relative;
     border: none;
     border-radius: 15px;
     overflow: hidden;
@@ -318,7 +319,18 @@ section .text-muted {
     transition: all 0.3s ease;
     border: 1px solid #d4c5b2;
 }
-
+.best-seller{
+    position:absolute;
+    top:12px;
+    left:12px;
+    background:#dc3545;
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+    z-index:100;
+}
 #produk .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 40px rgba(61, 43, 31, 0.12);
