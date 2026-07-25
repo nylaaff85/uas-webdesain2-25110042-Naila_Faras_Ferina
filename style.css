@@ -912,3 +912,15 @@ footer p {
 .menu-minuman .card-text {
     flex-grow: 1 !important;
 }
+
+/* Tombol pilih menu */
+#btnMakanan,
+#btnMinuman{
+    min-width:180px;
+    transition:0.3s;
+}
+
+/* Menu Minuman disembunyikan saat pertama kali */
+#menuMinuman{
+    display:none;
+}
